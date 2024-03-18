@@ -15,6 +15,7 @@ import UseEffect_Unmount from "./page/DemoUseEffect/UseEffect_Unmount";
 import { ChangeFontSizeRedux } from './page/Hook/ChangeFontSizeRedux';
 import CommentRedux from "./page/Hook/CommentRedux";
 import DemoUseRef from "./page/DemoUseRef/DemoUseRef";
+import DemoHookFormik from "./page/DemoHookFormik/DemoHookFormik";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -31,6 +32,7 @@ root.render(
           <Route path="redux-fs" element={<ChangeFontSizeRedux />}></Route>
           <Route path="redux-comment" element={<CommentRedux /> }  ></Route>
           <Route path="use-ref" element={<DemoUseRef /> }  ></Route>
+          <Route path="formik" element={<DemoHookFormik /> }></Route>
         </Route>
       </Routes>
     </BrowserRouter>
