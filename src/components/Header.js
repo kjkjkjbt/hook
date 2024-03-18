@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -24,13 +24,13 @@ const Header = () => {
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
-                  <NavLink
-                    to="#"
+                  <a
+                    href="#"
                     className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                     aria-current="page"
                   >
                     Home
-                  </NavLink>
+                  </a>
                 </li>
                 <li>
                   <NavLink
@@ -65,7 +65,7 @@ const Header = () => {
                     className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                     aria-current="page"
                   >
-                    UseEffect_didUpdate
+                    Effect didupdate
                   </NavLink>
                 </li>
                 <li>
@@ -74,7 +74,7 @@ const Header = () => {
                     className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                     aria-current="page"
                   >
-                    UseEffect unmount 
+                    Effect unmount
                   </NavLink>
                 </li>
                 <li>
@@ -92,7 +92,7 @@ const Header = () => {
                     className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                     aria-current="page"
                   >
-                    Comment Redux
+                    Redux comment
                   </NavLink>
                 </li>
                 <li>
@@ -101,7 +101,7 @@ const Header = () => {
                     className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                     aria-current="page"
                   >
-                    Demo Use Ref 
+                    Use ref
                   </NavLink>
                 </li>
                 <li>
@@ -110,7 +110,25 @@ const Header = () => {
                     className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
                     aria-current="page"
                   >
-                    Hook Formik  
+                    formik
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="use-callback"
+                    className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                    aria-current="page"
+                  >
+                    useCallBack
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="use-memo"
+                    className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white"
+                    aria-current="page"
+                  >
+                    Use MEMO 
                   </NavLink>
                 </li>
               </ul>
